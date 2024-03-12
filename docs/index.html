@@ -150,7 +150,7 @@ eval(script);
 			// On enter section "reload" load p5js
 			Reveal.addEventListener('slidechanged', function(event) {
 				if (event.currentSlide.classList.contains('reload')) {
-					setup();
+					new p5(gotometre);
 				}
 			});
 
